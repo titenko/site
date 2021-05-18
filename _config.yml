@@ -24,7 +24,7 @@ header_pages:
 
 footer_icons:
 - username: aterenin/minima-reboot/
-  url: https://github.com/aterenin/minima-reboot/
+  url: https://titenko.github.io/site/
   icon: icon-github.svg
 
 paginate: 5

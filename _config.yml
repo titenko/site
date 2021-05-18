@@ -1,7 +1,6 @@
-title: TI10KO
-author: Maksym Titenko
-email: titenko.m@gmail.com
-
+title: minima-reboot
+author: GitHub User
+email: your-email@domain.com
 description: >
   This is a demo page for minima-reboot, a bootstrap-based rewrite of Jekyll's
   default minima theme. It is simple, lightweight, and responsive.
@@ -25,8 +24,7 @@ header_pages:
 
 footer_icons:
 - username: aterenin/minima-reboot/
-  url: https://titenko.github.io/
-  baseurl: https://titenko.github.io/site/
+  url: https://github.com/aterenin/minima-reboot/
   icon: icon-github.svg
 
 paginate: 5

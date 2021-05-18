@@ -66,20 +66,3 @@ body {
   margin-bottom: 1rem;
   white-space: pre-wrap;
 }
-
-site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}

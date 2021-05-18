@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title: minima-reboot
 author: GitHub User
 email: your-email@domain.com
@@ -31,6 +32,59 @@ paginate: 5
 
 markdown: kramdown
 
+=======
+---
+title: TI10KO
+timezone: Europe/Warsaw
+collections:
+  news:
+    title: News
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+name: TI10KO
+description: Web Developer from Somewhere
+avatar: https://raw.githubusercontent.com/titenko/titenko.github.io/master/images/ti10ko.png
+footer-links:
+  dribbble: 
+  email: titenko.m@gmail.com
+  facebook: 
+  flickr: 
+  github: titenko
+  instagram: 
+  linkedin: 
+  pinterest: 
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+disqus: Titenko
+google_analytics: 
+url: https://titenko.github.io/
+baseurl: https://titenko.github.io/site/
+permalink: "/:title/"
+version: v4.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: expanded
+gems:
+- jekyll-sitemap
+- jekyll-feed
+- octopress
+- jekyll-tagging
+- jekyll-redirect-from
+- pygments.rb
+- jemoji
+>>>>>>> c1e64b3248928fdbcba22f297bcb425a545b70b6
 exclude:
   - Gemfile
   - Gemfile.lock

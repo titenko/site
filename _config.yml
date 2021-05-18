@@ -1,57 +1,37 @@
----
-title: TI10KO
-timezone: Europe/Warsaw
-collections:
-  news:
-    title: News
-    output: true
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-name: TI10KO
-description: Web Developer from Somewhere
-avatar: https://raw.githubusercontent.com/titenko/titenko.github.io/master/images/ti10ko.png
-footer-links:
-  dribbble: 
-  email: titenko.m@gmail.com
-  facebook: 
-  flickr: 
-  github: titenko
-  instagram: 
-  linkedin: 
-  pinterest: 
-  rss: 
-  twitter: 
-  stackoverflow: 
-  youtube: 
-  googleplus: 
-disqus: Titenko
-google_analytics: 
-url: https://titenko.github.io/
-baseurl: 
-permalink: "/:title/"
-version: v4.2.0
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: highlight
-sass:
-  style: expanded
-gems:
-- jekyll-sitemap
-- jekyll-feed
-- octopress
-- jekyll-tagging
-- jekyll-redirect-from
-- pygments.rb
-- jemoji
+title: minima-reboot
+author: GitHub User
+email: your-email@domain.com
+description: >
+  This is a demo page for minima-reboot, a bootstrap-based rewrite of Jekyll's
+  default minima theme. It is simple, lightweight, and responsive.
+  You can use it with your GitHub Pages site by adding the line
+  "theme: aterenin/minima-reboot" to _config.yml.
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-redirect-from
+
+minima_reboot:
+  date_format: "%b %-d, %Y"
+  date_format_short: "%b %-d"
+
+header_pages:
+- about.md
+- posts.md
+- github.md
+
+footer_icons:
+- username: aterenin/minima-reboot/
+  url: https://github.com/aterenin/minima-reboot/
+  icon: icon-github.svg
+
+paginate: 5
+
+markdown: kramdown
+
 exclude:
-- Gemfile
-- Gemfile.lock
-- LICENSE
-- README.md
-- CNAME
+  - Gemfile
+  - Gemfile.lock
+  - minima-reboot.gemspec

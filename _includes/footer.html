@@ -16,6 +16,9 @@
               <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
         </ul>
+         <div class="social-links">
+      {%- include social.html -%}
+    </div>
       </div>
       {% if site.footer_icons %}
       <div class="col-6 col-lg-3">
@@ -36,8 +39,6 @@
         <p class="text-secondary text-justify">{{ site.description | escape }}</p>
       </div>
     </div>
- <div class="social-links">
-      {%- include social.html -%}
-    </div>
+
   </div>
 </footer>

@@ -31,7 +31,7 @@ footer-links:
 disqus: Titenko
 google_analytics: 
 url: https://titenko.github.io/
-baseurl: 
+baseurl: https://titenko.github.io/site/
 permalink: "/:title/"
 version: v4.2.0
 kramdown:

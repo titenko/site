@@ -1,0 +1,24 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>Telegram_logo-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="10.672" y1="2.672" x2="6.672" y2="12">
+			<stop offset="0" stop-color="#37aee2"  />
+			<stop offset="1" stop-color="#1e96c8"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="9.003" y1="8.001" x2="10.665" y2="10.664">
+			<stop offset="0" stop-color="#eff7fc"  />
+			<stop offset="1" stop-color="#ffffff"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+		.shp1 { fill: #c8daea } 
+		.shp2 { fill: #a9c9dd } 
+		.shp3 { fill: url(#grd2) } 
+	</style>
+	<path id="Layer" class="shp0" d="M8 16C3.58 16 0 12.42 0 8C0 3.58 3.58 0 8 0C12.42 0 16 3.58 16 8C16 12.42 12.42 16 8 16Z" />
+	<path id="Layer" class="shp1" d="M6.53 11.67C6.27 11.67 6.32 11.57 6.23 11.32L5.47 8.81L11.33 5.33" />
+	<path id="Layer" class="shp2" d="M6.53 11.67C6.73 11.67 6.82 11.58 6.93 11.47L8 10.43L6.67 9.63" />
+	<path id="Layer" class="shp3" d="M6.67 9.63L9.89 12.01C10.26 12.21 10.53 12.11 10.62 11.67L11.93 5.48C12.07 4.94 11.73 4.7 11.37 4.86L3.67 7.83C3.14 8.04 3.14 8.34 3.57 8.47L5.55 9.08L10.13 6.2C10.34 6.06 10.54 6.14 10.38 6.28" />
+</svg>
